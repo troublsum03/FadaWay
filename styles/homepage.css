@@ -1,0 +1,76 @@
+/* Background Section  */
+.background-section {
+    background-image: url(../images/headerpics/HeaderPic1.jpg);
+    padding: 100px;
+    height: 464px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid whitesmoke;
+}
+
+/* Features section styles */
+.features-section {
+    background-image: url(../images/headerpics/HeaderPic5.jpg);
+    padding: 100px;
+    height: 464px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* add bg-color, if replace bg-image  */
+    border-top: 10px solid whitesmoke;
+    color: #9da9a0;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -26px 179px -80px rgba(0, 0, 0, 0.98);
+}
+
+.features-section img {
+    width: 87px;
+}
+
+.features-section img:hover {
+    width: 87px;
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid black;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}
